@@ -1,0 +1,412 @@
+F:/VSR/decoder/debug_stuff.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/debug_stuff.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module debug_stuff
+
+Top level modules:
+	debug_stuff
+
+} {} {}} F:/VSR/decoder/read_exp_golomb.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/read_exp_golomb.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module read_exp_golomb
+
+Top level modules:
+	read_exp_golomb
+
+} {} {}} F:/VSR/decoder/rbsp_buffer.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/rbsp_buffer.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module rbsp_buffer
+
+Top level modules:
+	rbsp_buffer
+
+} {} {}} F:/VSR/decoder/residual_top.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/residual_top.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module residual_top
+
+Top level modules:
+	residual_top
+
+} {} {}} F:/VSR/decoder/transform_butterfly.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/transform_butterfly.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module transform_butterfly
+
+Top level modules:
+	transform_butterfly
+
+} {} {}} F:/VSR/decoder/nC_decoding.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/nC_decoding.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module nC_decoding
+
+Top level modules:
+	nC_decoding
+
+} {} {}} F:/VSR/decoder/bitstream_fifo.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/bitstream_fifo.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module bitstream_fifo
+
+Top level modules:
+	bitstream_fifo
+
+} {} {}} F:/VSR/decoder/video_output.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/video_output.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module video_output
+
+Top level modules:
+	video_output
+
+} {} {}} F:/VSR/decoder/dp_ram_display.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/dp_ram_display.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module dp_ram_display
+
+Top level modules:
+	dp_ram_display
+
+} {} {}} F:/VSR/decoder/intra4x4_pred_mode_decoding.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/intra4x4_pred_mode_decoding.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module intra4x4_pred_mode_decoding
+
+Top level modules:
+	intra4x4_pred_mode_decoding
+
+} {} {}} F:/VSR/decoder/slice_header.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/slice_header.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module slice_header
+
+Top level modules:
+	slice_header
+
+} {} {}} F:/VSR/decoder/inter_pred_fsm.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/inter_pred_fsm.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module inter_pred_fsm
+
+Top level modules:
+	inter_pred_fsm
+
+} {} {}} F:/VSR/decoder/transform_inverse_zigzag.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/transform_inverse_zigzag.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module transform_inverse_zigzag
+
+Top level modules:
+	transform_inverse_zigzag
+
+} {} {}} F:/VSR/decoder/dp_ram.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/dp_ram.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module dp_ram
+
+Top level modules:
+	dp_ram
+
+} {} {}} F:/VSR/decoder/reg_file_be.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/reg_file_be.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module reg_file_be
+
+Top level modules:
+	reg_file_be
+
+} {} {}} F:/VSR/decoder/cavlc_read_total_coeffs.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/cavlc_read_total_coeffs.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module cavlc_read_total_coeffs
+
+Top level modules:
+	cavlc_read_total_coeffs
+
+} {} {}} F:/VSR/decoder/intra_pred_fsm.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/intra_pred_fsm.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module intra_pred_fsm
+
+Top level modules:
+	intra_pred_fsm
+
+} {} {}} F:/VSR/decoder/cavlc_read_levels.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/cavlc_read_levels.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module cavlc_read_levels
+
+Top level modules:
+	cavlc_read_levels
+
+} {} {}} F:/VSR/decoder/cavlc_fsm.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/cavlc_fsm.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module cavlc_fsm
+
+Top level modules:
+	cavlc_fsm
+
+} {} {}} F:/VSR/decoder/defines.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/defines.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+
+} {} {}} F:/VSR/decoder/sps.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/sps.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module sps
+
+Top level modules:
+	sps
+
+} {} {}} F:/VSR/decoder/decode_stream.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/decode_stream.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module decode_stream
+
+Top level modules:
+	decode_stream
+
+} {} {}} F:/VSR/decoder/cavlc_len_gen.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/cavlc_len_gen.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module cavlc_len_gen
+
+Top level modules:
+	cavlc_len_gen
+
+} {} {}} F:/VSR/decoder/intra_pred_regs.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/intra_pred_regs.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module intra_pred_regs
+
+Top level modules:
+	intra_pred_regs
+
+} {} {}} F:/VSR/decoder/ram.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/ram.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module ram
+
+Top level modules:
+	ram
+
+} {} {}} F:/VSR/decoder/intra_pred_calc.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/intra_pred_calc.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module intra_pred_calc
+
+Top level modules:
+	intra_pred_calc
+
+} {} {}} F:/VSR/decoder/ext_mem_writer.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/ext_mem_writer.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module ext_mem_writer
+-- Compiling module mb_ram
+
+Top level modules:
+	ext_mem_writer
+
+} {} {}} F:/VSR/decoder/residual_ctrl.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/residual_ctrl.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module residual_ctrl
+
+Top level modules:
+	residual_ctrl
+
+} {} {}} F:/VSR/decoder/transform_top.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/transform_top.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module transform_top
+-- Compiling module transform_mux
+
+Top level modules:
+	transform_top
+
+} {} {}} F:/VSR/decoder/ext_mem_reader_cmd_translate.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/ext_mem_reader_cmd_translate.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module ext_mem_reader_cmd_translate
+
+Top level modules:
+	ext_mem_reader_cmd_translate
+
+} {} {}} F:/VSR/decoder/transform_regs.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/transform_regs.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module transform_DC_regs
+-- Compiling module transform_regs
+
+Top level modules:
+	transform_DC_regs
+	transform_regs
+
+} {} {}} F:/VSR/decoder/cavlc_read_run_befores.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/cavlc_read_run_befores.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module cavlc_read_run_befores
+
+Top level modules:
+	cavlc_read_run_befores
+
+} {} {}} F:/VSR/decoder/dc_fifo_async_read.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/dc_fifo_async_read.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module dc_fifo_async_read
+
+Top level modules:
+	dc_fifo_async_read
+
+} {} {}} F:/VSR/decoder/video_ctrl.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/video_ctrl.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module video_ctrl
+
+Top level modules:
+	video_ctrl
+
+} {} {}} F:/VSR/decoder/sum.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/sum.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module sum
+-- Compiling module sum_pixel
+
+Top level modules:
+	sum
+
+} {} {}} F:/VSR/decoder/inter_pred_top.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/inter_pred_top.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module inter_pred_top
+
+Top level modules:
+	inter_pred_top
+
+} {} {}} F:/VSR/decoder/bitstream_tb.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/bitstream_tb.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module bitstream_tb
+
+Top level modules:
+	bitstream_tb
+
+} {} {}} F:/VSR/decoder/sync_ram_display.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/sync_ram_display.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module sync_ram_display
+
+Top level modules:
+	sync_ram_display
+
+} {} {}} F:/VSR/decoder/cavlc_read_total_zeros.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/cavlc_read_total_zeros.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module cavlc_read_total_zeros
+
+Top level modules:
+	cavlc_read_total_zeros
+
+} {} {}} F:/VSR/decoder/display_mem_reader.sv {1 {vlog -work work -vopt -sv -stats=none F:/VSR/decoder/display_mem_reader.sv
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module display_mem_reader
+
+Top level modules:
+	display_mem_reader
+
+} {} {}} F:/VSR/decoder/dp_ram_be.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/dp_ram_be.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module dp_ram_be
+
+Top level modules:
+	dp_ram_be
+
+} {} {}} F:/VSR/decoder/slice_data.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/slice_data.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module slice_data
+
+Top level modules:
+	slice_data
+
+} {} {}} F:/VSR/decoder/intra_pred_top.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/intra_pred_top.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module intra_pred_top
+
+Top level modules:
+	intra_pred_top
+
+} {} {}} F:/VSR/decoder/cavlc_top.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/cavlc_top.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module cavlc_top
+
+Top level modules:
+	cavlc_top
+
+} {} {}} F:/VSR/decoder/pps.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/pps.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module pps
+
+Top level modules:
+	pps
+
+} {} {}} F:/VSR/decoder/read_nalu.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/read_nalu.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module read_nalu
+
+Top level modules:
+	read_nalu
+
+} {} {}} F:/VSR/decoder/sync_ram.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/sync_ram.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module sync_ram
+
+Top level modules:
+	sync_ram
+
+} {} {}} F:/VSR/decoder/read_bits.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/read_bits.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module read_bits
+
+Top level modules:
+	read_bits
+
+} {} {}} F:/VSR/decoder/inter_pred_calc.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/inter_pred_calc.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module inter_pred_calc
+-- Compiling module luma_filter
+-- Compiling module luma_filter2
+-- Compiling module chroma_filter
+
+Top level modules:
+	inter_pred_calc
+
+} {} {}} F:/VSR/decoder/inter_pred_load.sv {1 {vlog -work work -vopt -sv -stats=none F:/VSR/decoder/inter_pred_load.sv
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module inter_pred_load
+
+Top level modules:
+	inter_pred_load
+
+} {} {}} F:/VSR/decoder/transform_inverse_quant.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/transform_inverse_quant.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module transform_inverse_quant
+-- Compiling module dequant_coeff_ram
+
+Top level modules:
+	transform_inverse_quant
+
+} {} {}} F:/VSR/decoder/bitstream_ena_gen.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/bitstream_ena_gen.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module bitstream_ena_gen
+
+Top level modules:
+	bitstream_ena_gen
+
+} {} {}} F:/VSR/decoder/ext_ram_32.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/ext_ram_32.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module ext_ram_32
+
+Top level modules:
+	ext_ram_32
+
+} {} {}} F:/VSR/decoder/bitstream_controller.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/bitstream_controller.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module bitstream_controller
+
+Top level modules:
+	bitstream_controller
+
+} {} {}} F:/VSR/decoder/stream_fifo.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/stream_fifo.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module stream_fifo
+
+Top level modules:
+	stream_fifo
+
+} {} {}} F:/VSR/decoder/transform_fsm.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/transform_fsm.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module transform_fsm
+
+Top level modules:
+	transform_fsm
+
+} {} {}} F:/VSR/decoder/dc_fifo.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/dc_fifo.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module dc_fifo
+
+Top level modules:
+	dc_fifo
+
+} {} {}} F:/VSR/decoder/get_mvp.v {1 {vlog -work work -vopt -stats=none F:/VSR/decoder/get_mvp.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module get_mvp
+
+Top level modules:
+	get_mvp
+
+} {} {}}

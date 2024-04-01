@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Feb  1 13:43:19 2024
+# Process ID: 6752
+# Current directory: F:/VSR/video_decoder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22680 F:\VSR\video_decoder\video_decoder.xpr
+# Log file: F:/VSR/video_decoder/vivado.log
+# Journal file: F:/VSR/video_decoder\vivado.jou
+#-----------------------------------------------------------
+start_gui
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Feb  1 13:43:36 2024...

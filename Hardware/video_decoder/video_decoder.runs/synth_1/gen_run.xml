@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xq7z020cl484-1I" LaunchTime="1706685274">
+  <File Type="PA-TCL" Name="display_mem_reader.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="display_mem_reader_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="display_mem_reader_reports.tcl"/>
+  <File Type="RDS-RDS" Name="display_mem_reader.vds"/>
+  <File Type="RDS-UTIL" Name="display_mem_reader_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="display_mem_reader_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="display_mem_reader.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="display_mem_reader_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="display_mem_reader_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/display/dp_ram_display.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/display/dp_ram_display.v"/>
+        <Attr Name="ImportTime" Val="1490626695"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/display/sync_ram_display.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/display/sync_ram_display.v"/>
+        <Attr Name="ImportTime" Val="1496974126"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/display/display_mem_reader.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/display/display_mem_reader.sv"/>
+        <Attr Name="ImportTime" Val="1705070338"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/defines.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/defines.v"/>
+        <Attr Name="ImportTime" Val="1492613054"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/bitstream_controller.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/bitstream_controller.v"/>
+        <Attr Name="ImportTime" Val="1495534346"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/bitstream_ena_gen.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/bitstream_ena_gen.v"/>
+        <Attr Name="ImportTime" Val="1492413772"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/cavlc_fsm.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/cavlc_fsm.v"/>
+        <Attr Name="ImportTime" Val="1475195240"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/cavlc_len_gen.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/cavlc_len_gen.v"/>
+        <Attr Name="ImportTime" Val="1492681901"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/cavlc_read_levels.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/cavlc_read_levels.v"/>
+        <Attr Name="ImportTime" Val="1475200602"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/cavlc_read_run_befores.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/cavlc_read_run_befores.v"/>
+        <Attr Name="ImportTime" Val="1492681587"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/cavlc_read_total_coeffs.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/cavlc_read_total_coeffs.v"/>
+        <Attr Name="ImportTime" Val="1380174447"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/cavlc_read_total_zeros.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/cavlc_read_total_zeros.v"/>
+        <Attr Name="ImportTime" Val="1492681526"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/cavlc_top.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/cavlc_top.v"/>
+        <Attr Name="ImportTime" Val="1475199256"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/dc_fifo.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/dc_fifo.v"/>
+        <Attr Name="ImportTime" Val="1496966962"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/debug_stuff.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/debug_stuff.v"/>
+        <Attr Name="ImportTime" Val="1492413897"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/dp_ram.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/dp_ram.v"/>
+        <Attr Name="ImportTime" Val="1494507650"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/ext_mem_writer.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/ext_mem_writer.v"/>
+        <Attr Name="ImportTime" Val="1496974211"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/get_mvp.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/get_mvp.v"/>
+        <Attr Name="ImportTime" Val="1492925781"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/inter_pred_calc.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/inter_pred_calc.v"/>
+        <Attr Name="ImportTime" Val="1496985614"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/inter_pred_fsm.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/inter_pred_fsm.v"/>
+        <Attr Name="ImportTime" Val="1492758614"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/inter_pred_top.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/inter_pred_top.v"/>
+        <Attr Name="ImportTime" Val="1496985875"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/intra4x4_pred_mode_decoding.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/intra4x4_pred_mode_decoding.v"/>
+        <Attr Name="ImportTime" Val="1492414087"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/intra_pred_calc.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/intra_pred_calc.v"/>
+        <Attr Name="ImportTime" Val="1492414100"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/intra_pred_fsm.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/intra_pred_fsm.v"/>
+        <Attr Name="ImportTime" Val="1492742941"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/intra_pred_regs.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/intra_pred_regs.v"/>
+        <Attr Name="ImportTime" Val="1492414114"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/intra_pred_top.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/intra_pred_top.v"/>
+        <Attr Name="ImportTime" Val="1492742985"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/nC_decoding.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/nC_decoding.v"/>
+        <Attr Name="ImportTime" Val="1492414133"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/pps.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/pps.v"/>
+        <Attr Name="ImportTime" Val="1492414149"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/ram.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/ram.v"/>
+        <Attr Name="ImportTime" Val="1492414156"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/rbsp_buffer.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/rbsp_buffer.v"/>
+        <Attr Name="ImportTime" Val="1495523819"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/read_exp_golomb.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/read_exp_golomb.v"/>
+        <Attr Name="ImportTime" Val="1492510371"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/read_nalu.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/read_nalu.v"/>
+        <Attr Name="ImportTime" Val="1496760122"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/reg_file_be.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/reg_file_be.v"/>
+        <Attr Name="ImportTime" Val="1492414202"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/residual_ctrl.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/residual_ctrl.v"/>
+        <Attr Name="ImportTime" Val="1492742624"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/residual_top.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/residual_top.v"/>
+        <Attr Name="ImportTime" Val="1496985551"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/slice_data.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/slice_data.v"/>
+        <Attr Name="ImportTime" Val="1495546746"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/slice_header.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/slice_header.v"/>
+        <Attr Name="ImportTime" Val="1493208552"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/sps.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/sps.v"/>
+        <Attr Name="ImportTime" Val="1492414333"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/sum.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/sum.v"/>
+        <Attr Name="ImportTime" Val="1496973118"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/sync_ram.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/sync_ram.v"/>
+        <Attr Name="ImportTime" Val="1496966990"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/transform_butterfly.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/transform_butterfly.v"/>
+        <Attr Name="ImportTime" Val="1492414367"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/transform_fsm.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/transform_fsm.v"/>
+        <Attr Name="ImportTime" Val="1492414373"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/transform_inverse_quant.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/transform_inverse_quant.v"/>
+        <Attr Name="ImportTime" Val="1492414385"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/transform_inverse_zigzag.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/transform_inverse_zigzag.v"/>
+        <Attr Name="ImportTime" Val="1492414394"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/transform_regs.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/transform_regs.v"/>
+        <Attr Name="ImportTime" Val="1492414405"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/transform_top.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/transform_top.v"/>
+        <Attr Name="ImportTime" Val="1492414414"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/inter_pred_load.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/inter_pred_load.sv"/>
+        <Attr Name="ImportTime" Val="1495542270"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/decode_stream.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/decode_stream.v"/>
+        <Attr Name="ImportTime" Val="1496973839"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/dc_fifo_async_read.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/dc_fifo_async_read.v"/>
+        <Attr Name="ImportTime" Val="1492413878"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/dp_ram_be.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/dp_ram_be.v"/>
+        <Attr Name="ImportTime" Val="1492413984"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/ip_core/read_bits.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/ip_core/read_bits.v"/>
+        <Attr Name="ImportTime" Val="1492414174"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/display/video_ctrl.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/display/video_ctrl.v"/>
+        <Attr Name="ImportTime" Val="1496972807"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/OSD10_rtl_no_df/display/video_output.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VSR_demoCode/OSenLogic264decoder/OSD10_rtl_no_df/display/video_output.v"/>
+        <Attr Name="ImportTime" Val="1496751152"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="display_mem_reader"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>
