@@ -12,7 +12,7 @@ parser can work without CPU, which means PL-end can do all the work
 FILE STRUCTURE:
 in forlder "Hardware", the sub-folder 'decoder' includes complete simulation project using Modelsim; the sub-folder 'video_decoder' includes complete RTL files of Osen Loigc OSD10.
 in folder "Software": it contains files that can implement the simulation of H264 decoding using software in C++, which used to compare the performance with the result of simlulation in hardware.  
-![image](https://github.com/ICscholar/H264_decoder-verilog-Cpp/blob/main/img/simulation.png)  
+![image](https://github.com/ICscholar/H264_decoder-verilog-Cpp/blob/main/img/simulation.png#pic_center=15x12)  
 Files in software simulation folder
 
 HOW TO SIMULATE THE PROJECT:  
