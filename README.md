@@ -24,7 +24,7 @@ To use the open source project, the first step is to replace the input file in p
 The specific command for 'makefile' depends on a .exe file in the path 'D:\VSCode\MinGW\mingw\bin\mingw32-make.exe'.  
 After downloading .mp4 file from video website, you can use ffmpeg to transfer it into .264 file. Default command to achieve this may be not enough, through numerous trials, the most appropriate command is 'ffmpeg -i 2_dance.mp4 -c:v libx264 -profile:v baseline -level 3.1 -refs 1 -bf 0 -r 25 -s 1280x720 -pix_fmt yuv420p -an 2_dance.264'. Besides, you should make sure that the resolution of video can be divided by 16, otherwise when you open the simuliation output file using some softwares, YUV viewer for example, may be in low quality with gray or blue ribbon at the bottom and left of the video, from automatic completion from bilinear interpolation method.  
 simulation results:  
-<img src="https://github.com/ICscholar/H264_decoder-verilog-Cpp/blob/main/img/simulation_out.png" width="300px">  
+<img src="https://github.com/ICscholar/H264_decoder-verilog-Cpp/blob/main/img/simulation_out.png" width="480px">  
 
 
 
