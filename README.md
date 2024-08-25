@@ -84,12 +84,12 @@ seeds calculation: seeds used in plane prediction mode, which would be generated
 
 <h3>intra_pred_top</h3>
 <h4>inter_pred_load</h4>
-deblocking filter: luma filter + chroma filter  
+luma filter + chroma filter  
 luma filter: eliminating spatial redundancy of video data  
 chroma filter: besides information of luma, the information of chroma is essential as well. However, the chroma information used to be stored in low resolution, since human eyes' sensitivity is lower than the detailed information of luma.
 
 
-##项目中包含去块滤波器部分。  
+## 去块滤波器：
 去块滤波作用：由于视频编码过程涉及量化操作，较为粗糙，在解码过程中反量化时会导致最终解码出的视频存在边缘模糊的问题，因此需要去块滤波模块提高解码视频的清晰度。  
 去块滤波流程可以参考博客：http://t.csdnimg.cn/Uavca  
 本项目中硬件实现去块滤波涉及多个变量和工程文件，软件部分可以通过是否注释“deblocking_filter(slice_header, pps);”来决定是否在解码过程中启用去块滤波器。  
