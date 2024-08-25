@@ -91,7 +91,7 @@ chroma filter: besides information of luma, the information of chroma is essenti
 
 ## 去块滤波器：
 去块滤波作用：由于视频编码过程涉及量化操作，较为粗糙，在解码过程中反量化时会导致最终解码出的视频存在边缘模糊的问题，因此需要去块滤波模块提高解码视频的清晰度。  
-去块滤波流程可以参考博客：http://t.csdnimg.cn/Uavca  
+去块滤波流程可以参考博客：http://t.csdnimg.cn/eFaJX
 本项目中硬件实现去块滤波涉及多个变量和工程文件，软件部分可以通过是否注释“deblocking_filter(slice_header, pps);”来决定是否在解码过程中启用去块滤波器。  
 硬件部分：exp_golomb_decoding_output_in 控制 disable_deblocking_filter_idc 信号的，若在仿真过程中观察得到‘disable_deblocking_filter_idc’值为0，则deblocking_filter启动
 
